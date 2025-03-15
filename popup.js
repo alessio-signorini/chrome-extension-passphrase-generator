@@ -24,6 +24,9 @@ function updateDisplay() {
 function copyToClipboard() {
   const text = document.getElementById('passphrase').textContent;
   navigator.clipboard.writeText(text);
+  const button = document.getElementById('copy');
+  button.classList.add('copied');
+  setTimeout(() => button.classList.remove('copied'), 200);
 }
 
 document.getElementById('copy').addEventListener('click', copyToClipboard);
