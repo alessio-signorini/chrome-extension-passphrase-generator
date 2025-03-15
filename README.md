@@ -13,3 +13,7 @@ Click the extension icon and use:
 ## Author
 
 Alessio Signorini (alessio@signorini.us)
+
+## License
+
+MIT License
