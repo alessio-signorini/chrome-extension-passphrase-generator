@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Passphrase Generator",
+  "version": "1.0",
+  "description": "Generates secure passphrases in the format {word}-{word}-{word}-{number}",
+  "author": {
+    "name": "Alessio Signorini",
+    "email": "alessio@signorini.us"
+  },
+  "homepage_url": "https://github.com/asignorini/chrome-extension-passphrase-generator",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["clipboardWrite"]
+}
