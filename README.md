@@ -1,4 +1,4 @@
-# Simple Passphrase Generator
+# 🔐 Simple Passphrase Generator
 
 Chrome extension that generates secure passphrases in the format `{word}-{word}-{word}-{number}`.
 
